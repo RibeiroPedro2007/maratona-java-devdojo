@@ -1,0 +1,12 @@
+package academy.devdojo.maratonajava.javacore.Bintroducaometodos.test;
+
+import academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominio.Calculadora;
+
+public class CalculadoraTest02 {
+
+    static void main(String[] args) {
+        Calculadora calculadora = new Calculadora();
+        calculadora.multiplicaDoisNumeros(9, 8);
+        System.out.println(calculadora);
+    }
+}
